@@ -20,9 +20,6 @@
         <td><%= link_to 'Delete', topic, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
-    <tr>
-      <td><%= link_to 'About', about_index_path %></td>
-    </tr>
   </tbody>
 
 </table>
@@ -30,3 +27,7 @@
 <br>
 
 <%= link_to 'New Topic', new_topic_path %>
+
+<br>
+
+<%= link_to 'About', about_index_path %>
